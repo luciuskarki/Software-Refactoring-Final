@@ -19,16 +19,16 @@
 
 int main() {
 	
-	//runBubbleSort();
-	//runInsertionSort();
-	/*
-	runSelectionSort();
-	runShellSort();
+	runSort(bubbleSort, "bubbleSort");
+	runSort(bubbleSortAssembly, "bubbleSortAssembly");
+	runSort(insertionSort, "insertionSort");
+	runSort(insertionSortAssembly, "insertionSortAssembly");
+	runSort(selectionSort, "selectionSort");
+	runSort(selectionSortAssembly, "selectionSortAssembly");
+	runSort(shellSort, "shellSort");
+
+	// does not work with merge or quicksort because they take different amounts of inputs or whateva
 	runMergeSort();
 	runQuickSort();
-	*/
-	runBubbleSortAssembly();
-	runInsertionSortAssembly();
-	runSelectionSortAssembly();
 	return 0;
 }

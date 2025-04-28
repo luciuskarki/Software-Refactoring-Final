@@ -29,6 +29,7 @@ const string RANDOM_DATA_FILE = "RandomNumbers.txt";
 const string ASCENDING_DATA_FILE= "AscendingNumbers.txt";
 const string DESCENDING_DATA_FILE = "DescendingNumbers.txt";
 
+
 /*     Pre:  an array of unspecified datatype, size of array
 *     Post:  List is sorted in ascending order
 *  Purpose:  To sort an array with bubble sort
@@ -284,12 +285,13 @@ void runBubbleSort();
 void runBubbleSortAssembly();
 void runInsertionSort();
 void runInsertionSortAssembly();
-void runMergeSort();
-void runQuickSort();
 void runSelectionSort();
 void runSelectionSortAssembly();
 void runShellSort();
+void runSort(void (*sort)(int*, int), string);
 
+void runMergeSort();
+void runQuickSort();
 
 /*     Pre:  an array of unspecified datatype, size of array
 *     Post:  List is sorted in ascending order

@@ -73,6 +73,11 @@ void runSort(void (*sort)(int*, int), string funcName) {
 }
 
 
+
+
+// Below is an example of what the code used to be. There were 8 of these.
+
+
 /*     Pre:  None
 *     Post:  None
 *  Purpose:  To run Mergesort
@@ -443,3 +448,4 @@ void runQuickSort()
 	delete[] array10K;
 	delete[] array1M;
 }
+
